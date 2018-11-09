@@ -1,0 +1,46 @@
+* {
+    font-family: 'OpenDyslexicRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        "a a a"
+        "b c c"
+        "b c c"
+        "b d d"
+        "e e e";
+    grid-template-rows: 100px 250px 250px 100px 100px;
+}
+
+.box {
+    min-height: 100px;
+}
+
+.a {
+    background-color: #d45353;
+    grid-area: a;
+}
+
+.b {
+    background-color: #eae55e;
+    grid-area: b;
+}
+
+.c {
+    background-color: #65d451;
+    grid-area: c;
+}
+
+.d {
+    background-color: #86b9f5;
+    grid-area: d;
+}
+
+.e {
+    background-color: #cf86f5;
+    grid-area: e;
+}
