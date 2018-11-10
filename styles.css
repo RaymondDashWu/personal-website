@@ -2,45 +2,103 @@
     font-family: 'OpenDyslexicRegular';
     font-weight: normal;
     font-style: normal;
+    line-height: 1.5;
+}
+
+.prestochango > img {
+    width: auto;
+    height: 100%;
+}
+
+#top-title, #top-desc {
+    display: flex;
+    margin: 5px;
+    align-content: center;
+}
+
+h2 {
+    font-size: 14px;
+}
+
+nav {
+    display: flex;
 }
 
 .container {
     display: grid;
     grid-gap: 20px;
     grid-template-areas:
-        "a a a"
-        "b c c"
-        "b c c"
-        "b d d"
-        "e e e";
-    grid-template-rows: 100px 250px 250px 100px 100px;
-}
-
-.box {
-    min-height: 100px;
+        "a a a a f f f f f f f f"
+        "b b b b c c c c c c c c"
+        "b b b b c c c c c c c c"
+        "b b b b d d d d d d d d"
+        "e e e e e e e e e e e e";
+    grid-template-rows: 75px 250px 250px 100px 100px;
 }
 
 .a {
-    background-color: #d45353;
+    /* background-color: #d45353; */
     grid-area: a;
+    
 }
 
 .b {
-    background-color: #eae55e;
+    /* background-color: #eae55e; */
     grid-area: b;
 }
 
 .c {
-    background-color: #65d451;
+    /* background-color: #65d451; */
     grid-area: c;
 }
 
 .d {
-    background-color: #86b9f5;
+    /* background-color: #86b9f5; */
     grid-area: d;
 }
 
 .e {
-    background-color: #cf86f5;
+    /* background-color: #cf86f5; */
     grid-area: e;
 }
+
+.f {
+    /* background-color:purple; */
+    grid-area: f;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-nav > a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    line-height: 78px;
+}
+
+.footer-links a {
+    font-size: 40px;
+    justify-content: left;
+    color: black;
+}
+
+/* body.about somediv {
+    visibility: visible;
+}
+
+
+body.about #front-end {
+    color: red;
+    border-bottom: 1px solid red;
+} */

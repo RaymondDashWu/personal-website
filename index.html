@@ -3,39 +3,63 @@
 <head>
     <meta charset="utf-8">
     <title>Raymond Wu</title>
-    <link rel = "stylesheet" href="styles.css">
-    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/opendyslexic" type="text/css"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/opendyslexic" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
 </head>
 
 <body>
     <!-- Grid Container -->
     <div class="container">
         <div class="box a">
-            <nav>
-                <a href="/frontend">Front End Work</a>
-                <a href="/backend">Back End Work</a>
-                <a href="/data-science">Data Science</a>
-                <a href="/hackathon-results">Hackathon Results</a>
-                <a href="/my-hobbies">My Hobbies</a>
+            <header>
+                <h1 id="top-title">Raymond Wu</h1>
+                <h2 id="top-desc">Data Scientist in Training</h2>
+            </header>
+        </div>
+        <div class="box f">
+            <nav class="main-nav">
+                <a href="#" id="front-end">Front-End</a>
+                <a href="#" id="back-end">Back-End</a>
+                <a href="#" id="data-science">Data Science</a>
+                <a href="#" id="hackathon">Hackathon Results</a>
+                <a href="http://raymond-wu.com">My Hobbies</a>
             </nav>
         </div>
         <div class="box b">
-            <p>yellow</p>
+            <section id="about_section">
+                <!-- TOFIX: CHANGE TO LIGHTERWEIGHT FONT FOR CONTRAST. ADD LINEHEIGHT -->
+                <h2>About Me</h2>
+                <p>Currently at Make School studying to become an expert in machine vision. However, due to the
+                    curriculum's pacing I've had to devise my own methods to satisfy my curiosity and thirst for data
+                    science. This has been done through intensive self study as well as practicing at hackathons when I
+                    can.</p>
+            </section>
         </div>
         <div class="box c">
-            <p>green</p>
+            <div class="prestochango">
+                <img src="images/DSC04310.png">
+            </div>
         </div>
         <div class="box d">
-            <p>blue</p>
+            <p>Me being awesome</p>
         </div>
         <div class="box e">
-            <p>purple</p>
+            <footer>
+                <nav class="footer-links">
+                    <a href="mailto:raymond31670@hotmail.com"><i class="far fa-envelope" font-size="20px"></i></a>
+                    <a href="https://linkedin.com/in/raymonddashwu"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/RaymondDashWu"><i class="fab fa-github"></i></a>
+                </nav>
+            </footer>
         </div>
     </div>
 
 
     <style>
     </style>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
